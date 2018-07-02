@@ -1,0 +1,29 @@
+table{
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+    text-align:center;
+}
+
+table th{
+	border:1px solid #a9c6c9;
+	padding: 8px;
+	width: 250px;
+}
+
+table td{
+	border: 1px solid #a9c6c9;
+	padding: 8px;
+	width: 250px;
+	height:250px;
+}
+
+table td img{
+	width: 250px;
+	height: 250px;
+	vertical-align: middle;
+
+}
+

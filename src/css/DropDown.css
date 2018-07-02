@@ -1,0 +1,35 @@
+.dropdown{
+	position:relative;
+	display: inline-block;
+	min-width: 300px;
+}
+
+.dropdown_content{
+	display: none;
+	position:absolute;
+	background-color:#f9f9f9;
+	min-width: 80px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 2;
+}
+
+.dropdown_content a{
+	display: block;
+	text-decoration: none;
+	/*padding:12px 16px;*/
+	color:black;
+}
+
+.dropdown_content .upload_button{
+	background-color:#fff;
+	color:#44b549;
+}
+
+.dropdown_content a:hover{
+	color:#1f5f22;
+}
+
+.dropdown:hover .dropdown_content{
+	display: block;
+}
+

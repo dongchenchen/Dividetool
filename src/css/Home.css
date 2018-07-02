@@ -1,0 +1,139 @@
+@import "./common.css";
+@import "./DropDown.css";
+@import "./CheckBox.css";
+@import "./ImgShow.css";
+.upload_area {
+	width:50%;
+	border-right: 1px solid #999;
+	padding:0px 0px 0px 10px;
+}
+
+.upload_area .upload_button{
+	padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    /*border: 1px solid #999;*/
+    text-decoration: none;
+    color: #fff;
+    background-color: #44b549;
+    text-align: center;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.upload_area .upload_file{
+	position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.upload_area .upload_button .upload_icon{
+	width:20px;
+	height: 20px;
+}
+
+.dropdown_content .upload_button{
+    background-color:#fff;
+    color:#44b549;
+}
+
+.dropdown_content a:hover{
+    color:#1f5f22;
+}
+
+.paste_area {
+	width:50%;
+	margin: 0px 0px 0px 20px;
+	/*height: 300px;*/
+	padding: 5px 3px 3px 5px;
+    
+}
+
+.model_param{
+	margin-top: 50px;
+	/*border:1px solid #e7e7eb;*/
+}
+
+.model_param .param{
+	margin-top: 20px;
+}
+
+
+.choose{
+	display: flex;
+}
+
+.submit_area{
+	margin-top: 50px;
+}
+
+
+
+.submit_button{
+	display: inline-block;
+    overflow: visible;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    background-color: #44b549;
+    background-image: -moz-linear-gradient(top,#44b549 0,#44b549 100%);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#44b549),to(#44b549));
+    background-image: -webkit-linear-gradient(top,#44b549 0,#44b549 100%);
+    background-image: -o-linear-gradient(top,#44b549 0,#44b549 100%);
+    background-image: linear-gradient(to bottom,#44b549 0,#44b549 100%);
+    border-color: #44b549;
+    color: #fff;
+    height: 33px;
+    line-height: 33px;
+    width: 120px;
+    padding-left: 0;
+    padding-right: 0;
+    margin:0 auto;
+}
+
+.model{
+	overflow: hidden;
+}
+.model .model_item_div{
+	width: 33%;
+	float: left;
+	
+	/*position: relative;*/
+}
+
+#multiple_time{
+    width:80px;
+}
+
+.default_area{
+    margin-top: 20px;
+}
+
+.small{
+   /*text-decoration: underline;*/
+    /*height: 20px;*/
+    /*font-size: 14px;*/
+}
+
+.arrow{
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border:5px solid transparent;
+    border-left-color: green;
+}
+
+.article_url{
+    margin-bottom: 20px;
+}

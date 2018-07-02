@@ -1,0 +1,68 @@
+.dt_head{
+	border-top: 4px solid #44B549;
+}
+
+.dt_desktop_head{
+	background-color: #ffffff;
+	box-shadow:10px 1px 4px 0 rgba(238, 238, 238, 0.5);
+}
+
+.dt_desktop_head_inner{
+	width: 960px;
+	height:80px;
+	padding:0 65px;
+	margin: 0 auto;
+}
+
+.dt_desktop_layout{
+	height: 100%;
+	position: relative;
+}
+
+.dt_desktop_title{
+	float: left;
+}
+
+.dt_desktop_title .logo{
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	color:#222222;
+}
+
+.dt_body{
+	width:960px;
+	margin: 0 auto;
+	/*padding: 30px 0px 30px;*/
+}
+
+h3{
+	font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: 70%;
+    padding:0px 0px 0px 10px;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+	text-decoration: underline;
+	color:green;
+}
+textarea, select, input[type='number'], input[type='text'] {
+	border: 1px solid #DADADA;
+	color: #222;
+	font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+	outline: 0 none;
+	padding: 3px 3px 3px 5px;
+	width: 70%;
+	font-size: 14px;
+	line-height: 1.6;
+	box-shadow: inset 0px 1px 4px #ECECEC;
+	-moz-box-shadow: inset 0px 1px 4px #ECECEC;
+	-webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
